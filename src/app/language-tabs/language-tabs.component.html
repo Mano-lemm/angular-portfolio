@@ -1,0 +1,7 @@
+<ul class="projectsContainer">
+  <li *ngFor="let project of getProjects()" class="project">
+    <p>{{ project.title }}</p>
+    <a href="{{ project.link }}">{{ project.link }}</a>
+    <p>{{ project.last_updated }}</p>
+  </li>
+</ul>
